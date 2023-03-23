@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Navbar {
+    text-align: center;
+    padding: 10px;
+    transition: all;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    background-color: lightgray;
+}
+.Navbar:hover{
+    background-color: black;
+    color: white;
+}
+.Navbar a{
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 10px;
+    color: black;
+}
+.Navbar:hover a{
+    color: white;
+}
+
+.Container{
+    display: flex;
+}
+.allCourse{
+    width: 75%;
+    padding-left: 30px;
+    border-right: 1px solid lightgray;
+    margin-right: 15px;
+     
+}
+.coursesall{
+    display: inline-block;
+    width: 278px;
+    border: 1px solid red;
+    margin: 18px;
+    border-radius: 3px;
+    text-align: center;
+    padding-bottom: 14px;
+}
+.coursesall img{
+    width: 277px;
+    outline: hidden;
+}
+.coursesall button{
+    /* background-color: blue; */
+    background: rgb(100, 74, 74);
+    color: white;
+    border: none;
+    width: 147px;
+    height: 31px;
+    margin-top: 13px;
+    border-top-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    text-align: center;
+    cursor: pointer;
+}
+.coursesall button:active{
+    background-color: black;
+}
+.coursesall h4 , h5{
+    padding-bottom: 5px;
+}
+.cgadd{
+    font-size: 15px;
+    position: relative;
+    top: 3px;
+}
